@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <header>
+            <h1 id="userName">Muhammad Salman</h1>
+            <p id="userAbbout">Frontend Web Developer | React | Next.js | TailwindCSS</p>
+        </header>
+
+        <div class="btns">
+            <button onclick="toggleVisibility('.personal-info')" class="btn">Hide/unHide Personal Info</button>
+            <button onclick="toggleVisibility('.contact-info')" class="btn">Hide/unHide Contact Info</button>
+        </div>
+        <section class="personal-info">
+            <h2>Personal Information</h2>
+            <h4>Full Name: <span id="userFullName">Muhammad Salman</span></h4>
+            <h4>Age: <span id="userAge">18</span></h4>
+            <h4>Address: <span id="userAddress">Karachi,</span></h4>
+            <h4>Nationality: <span id="userNationality"> Pakistani</span></h4>
+            <h4>Language: <span id="userLanguage">Urdu, English</span></h4>
+            <h4>Hobbies/Interests: <span id="userHobbie"> Coding, Gaming, Reading</span></h4>
+        </section>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <h4>Email: <span id="userEmail"> salman@gmail.com</span></h4>
+            <h4>Phone: <span id="userNo">+92 324 8275845</span></h4>
+            <h4>LinkedIn: <a href="https://www.linkedin.com/in/muhammad-salman-5b77001b0/">muhammad-salman-5b77001b0</a>
+            </h4>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <h4>Institute: <span>Muhammad Shafi Educational Complex</span></h4>
+            <h4>Degree: <span>Intermediate (In Progress)</span></h4>
+            <h4>Year: <span>2024</span></h4>
+        </section>
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Frontend Web Developer Intern</h3>
+                <p>HiSkyTech | September 2024 - Present</p>
+                <p>Building and optimizing web applications using React and TailwindCSS.
+                    Collaborating with teams to create user-friendly, responsive interfaces.
+                    Learning Next.js and TypeScript for real-world projects.</p>
+            </div>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5, CSS3, JavaScript, TypeScript</li>
+                <li>React, Next.js</li>
+                <li>TailwindCSS, Bootstrap</li>
+                <li>Responsive Web Design</li>
+                <li>Version Control (Git, GitHub)</li>
+                <li>Office Automation</li>
+            </ul>
+        </section>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
